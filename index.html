@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="島田真杜,ポートフォリオ,新宿,sakura takashi,シマダマコト">
+  <meta name="description" content="島田真杜のポートフォリオ">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link href="css/important.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css" edia="all" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/lightbox.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function () {
+      var pagetop = $('.pagetop');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          pagetop.fadeIn();
+        } else {
+          pagetop.fadeOut();
+        }
+      });
+      pagetop.click(function () {
+        $('body, html').animate({
+          scrollTop: 0
+        }, 500);
+        return false;
+      });
+    });
+
+  </script>
+  <script>
+    $(function () {
+      $(".nav").css("display", "none");
+      $(".menu_button").on("click", function () {
+        $(".nav").slideToggle();
+      });
+    });
+
+  </script>
+  <title>島田真杜のポートフォリオ</title>
+</head>
+
+<body>
+  <div id="bg-border">
+    <header>
+      <div id="headerin">
+        <h1><a href="#"><img src="images/logo01.png" width="106" height="58" alt="ShimadaMakoto"></a></h1>
+        <nav id="gNavi">
+          <ul>
+            <li id="HOME"><a href="#">HOME</a></li>
+            <li id="WebD"><a href="#webdesign">WebDesign</a></li>
+            <li id="GraphicD"><a href="#GraphicDesign">GraphicDesign</a></li>
+            <li id="Pt"><a href="#animation">animation</a></li>
+            <li id="Illust"><a href="#Illustration">Illustration</a></li>
+            <li id="Ab"><a href="#about">About</a></li>
+            <li id="Con"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="gNavisp">
+          <div class="menu_button"><span>▼ MENU ▼</span></div>
+          <div class="nav">
+            <ul>
+              <li><a href="#webdesign">Web Design</a></li>
+              <li><a href="#GraphicDesign">Graphic Design</a></li>
+              <li><a href="#Photo">Photo</a></li>
+              <li><a href="#Illustration">Illustration</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header@end -->
+    <main>
+      <div id="wrapper" class="clear">
+        <p class="pagetop"><a href="#wrap">▲</a></p>
+        <article>
+          <section id="mainV">
+            <ul>
+              <li><img src="images/yokohama.jpg" alt="portfolio"></li>
+            </ul>
+          </section>
+          <section id="webdesign" class="webD clearfix">
+            <h1><img src="images/ttl01.png" width="135" height="23" alt="Web Design"></h1>
+            <ul class="webd_box">
+
+              <li class="webd_box01">
+                <p><a href="https://skyto385.github.io/gift-station/" target="_blank"><img src="images/top.png" width="403" height="239" alt=""></a></p>
+
+                <ul>
+                  <li>作業内容：ディレクション、デザイン、コーディング </li>
+                  <li>制作時間：5時間×5日間 </li>
+                  <li>ス キ ル：HTML、CSS、jQuery、AdobeCC Ai、Ps、DW</li>
+                </ul>
+              </li>
+              <li class="webd_box01 mr0">
+                <p><a href="https://skyto385.github.io/gift-station/flowergift.html" target="_blank"><img src="images/flower.png" alt="" width="403" height="238"
+                      border="0"></a></p>
+                <!--
+                <ul>
+                  <li>作業内容：ディレクション、デザイン、コーディング </li>
+                  <li>制作時間：5時間×5日間 </li>
+                  <li>ス キ ル：HTML、CSS、jQuery、AdobeCC Ai、Ps、DW</li>
+                </ul>
+-->
+              </li>
+
+              <li class="webd_box01 clear">
+                <p><a href="#" target="_blank"><img src="images/ocya_site.png" width="403" height="239" alt=""></a></p>
+                <ul>
+                  <li>作業内容：ディレクション、デザイン、コーディング </li>
+                  <li>制作時間：5時間×5日間 </li>
+                  <li>ス キ ル：HTML、CSS、jQuery、AdobeCC Ai、Ps、DW</li>
+                </ul>
+              </li>
+              <li class="webd_box01 mr0">
+                <p><a href="#" target="_blank"><img src="images/ocya_site2.png" alt="" width="409" height="238"
+                      border="0"></a></p>
+                <!--
+							<ul>
+								<li>作業内容：ディレクション、デザイン、コーディング </li>
+								<li>制作時間：5時間×5日間 </li>
+								<li>ス キ ル：HTML、CSS、jQuery、AdobeCC Ai、Ps、DW</li>
+							</ul>
+-->
+              </li>
+            </ul>
+          </section>
+          <section id="GraphicDesign" class="webD clearfix clear">
+            <h1><img src="images/ttl02.png" alt="Graphic Design"></h1>
+            <ul class="webd_box">
+              <li class="graphic_box01">
+                <p><a href="images/mr_1.png" rel="lightbox[gf-group]" title="GraphicDesign"><img src="images/mr_1.png"
+                      alt=""></a></p>
+                <ul>
+                  <li>作業内容：ディレクション、デザイン</li>
+                  <li>制作時間：3時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+              <li class="graphic_box01">
+                <p><a href="images/gf_img01b.jpg" rel="lightbox[gf-group]" title="GraphicDesign"><img
+                      src="images/mr_2.png" alt=""></a></p>
+                <ul>
+                  <li>作業内容：ディレクション、デザイン</li>
+                  <li>制作時間：3時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+              <div class="banner graphic_box01">
+                <li class="graphic_box01">
+                  <p><a href="images/lb_2.png" rel="lightbox[gf-group]" title="GraphicDesign"><img src="images/lb_2.png"
+                        alt=""></a></p>
+                  <ul>
+                    <li>作業内容：ディレクション、デザイン</li>
+                    <li>制作時間：3時間</li>
+                    <li>サイズ：300×200px</li>
+                  </ul>
+                </li>
+                <li class="graphic_box01">
+                  <p><a href="images/lb_3.png" rel="lightbox[gf-group]" title="GraphicDesign"><img src="images/lb_3.png"
+                        alt=""></a></p>
+                  <ul>
+                    <li>作業内容：ディレクション、デザイン</li>
+                    <li>制作時間：3時間 </li>
+                    <li>ス キ ル：300×200px</li>
+                  </ul>
+                </li>
+                <li class="graphic_box01">
+                  <p><a href="images/lb_1.png" rel="lightbox[gf-group]" title="GraphicDesign"><img src="images/lb_1.png"
+                        width="260" height="159" alt=""></a></p>
+                  <ul>
+                    <li>作業内容：撮影、デザイン</li>
+                    <li>制作時間：5時間 </li>
+                    <li>ス キ ル：300×200px</li>
+                  </ul>
+                </li>
+              </div>
+              <li class="graphic_box01">
+                <p><a href="images/pizza.png" rel="lightbox[gf-group]" title="GraphicDesign"><img src="images/pizza.png"
+                      width="450" height="800" alt=""></a></p>
+                <ul>
+                  <li>作業内容：撮影、デザイン</li>
+                  <li>制作時間：5時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+              <li class="graphic_box01">
+                <p><a href="images/pizza5.png" rel="lightbox[gf-group]" title="GraphicDesign"><img
+                      src="images/pizza5.png" width="5000" height="3502" alt=""></a></p>
+                <ul>
+                  <li>作業内容：撮影、デザイン</li>
+                  <li>制作時間：5時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+              <li class="graphic_box01">
+                <p><a href="https://skyto385.github.io/jquery-animation/" target="blank" title="GraphicDesign"><img src="images/dragon.png" width="5000"
+                      height="3502" alt=""></a></p>
+                <ul>
+                  <li>作業内容：撮影、デザイン</li>
+                  <li>制作時間：5時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+              <li class="graphic_box01">
+                <p><a href="https://skyto385.github.io/jquery-animation/" target="blank" title="GraphicDesign"><img src="images/dragon2.png" width="5000"
+                      height="3502" alt=""></a></p>
+                <ul>
+                  <li>作業内容：撮影、デザイン</li>
+                  <li>制作時間：5時間 </li>
+                  <li>ス キ ル：300×200px</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section id="Photo" class="webD clearfix clear">
+            <h1><img src="images/ttl06.png" width="61" height="20" alt="Photo"></h1>
+            <ul class="webd_box">
+              <li class="photo_box01">
+                <p><a href="images/photo_img01.png" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img01.png" width="256" height="169" border="0"></a></p>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/photo_img02b.jpg" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img02.png" width="256" height="169" alt=""></a></p>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/photo_img03.png" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img03.png" width="256" height="169" alt=""></a></p>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/photo_img04.png" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img04.png" width="256" height="169" alt=""></a></p>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/photo_img05.png" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img05.png" width="256" height="169" alt=""></a></p>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/photo_img06.png" rel="lightbox[photo-group]" title="Photo"><img
+                      src="images/photo_img06.png" width="256" height="169" alt=""></a></p>
+              </li>
+            </ul>
+          </section>
+          <section id="Illustration" class="webD clearfix clear">
+            <h1><img src="images/ttl07.png" width="151" height="19" alt="Illustration"></h1>
+            <ul class="webd_box clearfix">
+              <li class="photo_box01">
+                <p><a href="images/ilust_img01.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img01.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/ilust_img02.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img02.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/ilust_img03.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img03.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/ilust_img04.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img04.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/ilust_img05.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img05.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+              <li class="photo_box01">
+                <p><a href="images/ilust_img06.png" rel="lightbox[Illust-group]" title="Illust"><img
+                      src="images/ilust_img06.png" width="260" height="177" alt=""></a></p>
+                <ul>
+                  <li>制作時間：1時間 </li>
+                  <li>ス キ ル：AdobeCC Illustrator</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section id="about" class="webD clearfix clear">
+            <h1><img src="images/ttl04.png" width="62" height="19" alt="About"></h1>
+            <div class="about_box01">
+              <div class="about_boxl">
+                <p><img src="images/about_img01.png" width="241" height="188" alt=""></p>
+              </div>
+              <div class="about_boxr">
+                <dl>
+                  <dt>Name</dt>
+                  <dd>＞ 島田　真杜</dd>
+                  <dt>Job</dt>
+                  <dd>＞クリエーター</dd>
+                  <dt>Mail</dt>
+                  <dd>＞ stratos4127@gmail.com</dd>
+                  <dt>Site</dt>
+                  <dd>＞ <a href="#" target="_blank">http://adjustacademy.com</a></dd>
+                  <dt>Blog</dt>
+                  <dd>＞ <a href="#" target="_blank">https://◯◯◯.jp</a></dd>
+                  <dt>FB</dt>
+                  <dd>＞ <a href="#" target="_blank">https:www.facebook.com</a></dd>
+                  <dt>Skill</dt>
+                  <dd>＞
+                    HTML5、CSS3、JavaScript、jQuery、PHP、IllustratorCC2015、PhotoshopCC2015、DreameweaverCC2015、OfficeExell2010、Word2010
+                  </dd>
+                  <dt>Certificate</dt>
+                  <!--                  <dd>＞ Webアナリスト検定</dd>-->
+                </dl>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="webD clearfix clear">
+            <h1><img src="images/ttl05.png" width="88" height="18" alt="Contact"></h1>
+            <p>ご依頼・ご意見・ご質問など、お気軽にお問い合わせください。<br>
+              ※仮のフォームです。設定完了まで●●@gmail.comへご連絡お願いします。</p>
+            <form action="test.cgi" method="post">
+              <dl>
+                <dt>お名前 | </dt>
+                <dd>
+                  <input name="name" type="text" size="40">
+                </dd>
+              </dl>
+              <dl>
+                <dt class="clear">E-mail | </dt>
+                <dd>
+                  <input name="mail" type="text" size="40">
+                </dd>
+              </dl>
+              <dl>
+                <dt class="clear">内　容 | </dt>
+                <dd>
+                  <textarea name="comment" cols="50" rows="10"></textarea>
+                </dd>
+              </dl>
+              <p class="center">
+                <input type="button" class="btn" value="送信">
+              </p>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!-- main@end -->
+    <!--    <footer class="clear"> <small><img src="images/txt_fotter01.png" width="283" height="17" alt="@Copyright 2016 MakotoShimada"></small> </footer>-->
+    <!-- footer@end -->
+  </div>
+</body>
+
+</html>

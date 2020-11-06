@@ -1,0 +1,467 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#E7E7E7;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#bg-border {
+	border-top:10px solid #BBD1F7;
+	border-bottom:10px solid #BBD1F7;
+	width:100%;
+}
+#wrapper {
+	width:90%;
+	margin:0 auto;
+	padding:30px 0;
+}
+
+/*--------------------------------------------------
+
+header
+
+--------------------------------------------------*/
+
+header {
+	background:#FFFFFF;
+	width:100%;
+	overflow:auto;
+}
+header #gNavi{
+	display:none;
+}
+header #gNavi li#HOME a{
+	display:block;
+	background:url(../images/gnavi01_off.png) no-repeat;
+	width:48px;
+	height:52px;
+}
+header #gNavi li#WebD a{
+	display:block;
+	background:url(../images/gnavi02_off.png) no-repeat;
+	width:74px;
+	height:52px;
+}
+header #gNavi li#GraphicD a{
+	display:block;
+	background:url(../images/gnavi03_off.png) no-repeat;
+	width:87px;
+	height:52px;
+}
+header #gNavi li#Pt a{
+	display:block;
+	background:url(../images/gnavi04_off.png) no-repeat;
+	width:61px;
+	height:52px;
+}
+header #gNavi li#Illust a{
+	display:block;
+	background:url(../images/gnavi05_off.png) no-repeat;
+	width:151px;
+	height:52px;
+}
+header #gNavi li#Ab a{
+	display:block;
+	background:url(../images/gnavi06_off.png) no-repeat;
+	width:62px;
+	height:52px;
+}
+header #gNavi li#Con a{
+	display:block;
+	background:url(../images/gnavi07_off.png) no-repeat;
+	width:88px;
+	height:52px;
+}
+header #gNavi li#HOME a:hover{
+	display:block;
+	background:url(../images/gnavi01_on.png) no-repeat;
+	width:48px;
+	height:52px;
+}
+header #gNavi li#WebD a:hover{
+	display:block;
+	background:url(../images/gnavi02_on.png) no-repeat;
+	width:74px;
+	height:52px;
+}
+header #gNavi li#GraphicD a:hover{
+	display:block;
+	background:url(../images/gnavi03_on.png) no-repeat;
+	width:87px;
+	height:52px;
+}
+header #gNavi li#Pt a:hover{
+	display:block;
+	background:url(../images/gnavi04_on.png) no-repeat;
+	width:61px;
+	height:52px;
+}
+header #gNavi li#Illust a:hover{
+	display:block;
+	background:url(../images/gnavi05_on.png) no-repeat;
+	width:151px;
+	height:52px;
+}
+header #gNavi li#Ab a:hover{
+	display:block;
+	background:url(../images/gnavi06_on.png) no-repeat;
+	width:62px;
+	height:52px;
+}
+header #gNavi li#Con a:hover{
+	display:block;
+	background:url(../images/gnavi07_on.png) no-repeat;
+	width:88px;
+	height:52px;
+}
+#headerin {
+	width:90%;
+	margin:0 auto;
+	padding:30px 0 0 0;
+	overflow:auto;
+	position: relative;
+}
+#headerin #gNavi ul {
+	width:68%;
+	float:right;
+	padding:15px 0;
+}
+#headerin #gNavi ul li {
+	float:left;
+	border-right:2px solid #CCCCCC;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+#headerin #gNavisp{
+	text-align:center;
+	z-index:9999;
+	margin-top:15px;
+	line-height:2;
+}
+
+#headerin #openMenu{
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+#headerin #layerMenu{
+	display: none;
+	position:absolute;
+	top:37px;
+	left:0;
+	width:100%;
+	height:auto;
+	font-size: 12px;
+	z-index:9999;
+}
+#headerin #layerMenu ul{
+	border-top: solid 1px #ccc;
+}
+#headerin #layerMenu ul li{
+	background: #fff;
+	list-style: none;
+	border-bottom: solid 1px #ccc;
+}
+#headerin #layerMenu ul li a{
+	position: relative;
+	padding: 10px;
+	text-decoration: none;
+	color: #555;
+	display: block;
+}
+#headerin #layerMenu ul li a:hover{
+	color: #EA0001;
+}
+#headerin #closeMenu {
+	position: absolute;
+	top: -37px;
+	right: 0;
+}
+
+#headerin .menu_button span{
+	display:block;
+}
+#gNavisp ul{
+	clear:both;
+}
+#gNavisp li a{
+	display:block;
+	width:100%;
+	line-height:3;
+	border-top:1px solid #CCC;
+	text-align:center;
+}
+#gNavisp li a:hover{
+	background:#CCCCCC;	
+	color:#fff;
+}
+
+/*--------------------------------------------------
+
+main
+
+--------------------------------------------------*/
+
+main {
+	width:95%;
+	margin:0 auto;
+}
+#mainV li{
+	line-height:none !important;
+}
+#mainV img{
+	width:100%;
+	height:auto;
+}
+section {
+	background:#FFFFFF;
+	border-radius: 5px;        /* CSS3草案 */
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 5px;   /* Firefox用 */
+	margin-bottom:20px;
+	width:98%;
+	padding:1%;
+}
+.bx-wrapper {
+	margin:0 !important;
+}
+
+.bx-bxslider {
+	width:100% !important;
+	height:auto !important;
+}
+.bx-bxslider img{
+	width:100%;
+}
+/*.bx-bxslider li{
+	width:100%;
+}
+*/.bx-wrapper .bx-viewport {
+	box-shadow:none !important;
+	border: none !important;
+	left: 0 !important;
+	background: none !important;
+}
+
+.bx-wrapper .bx-pager, 
+.bx-wrapper .bx-controls-auto {
+	bottom:-30px;
+}
+
+/*------------　#webD　------------*/
+
+section.webD {
+	width:90%;
+	padding:5%;
+	overflow:auto;
+}
+section.webD h1 {
+	border-left:10px solid #999999;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+section .webd_box {
+	width:90%;
+	margin:30px auto 0;
+}
+section .webd_box01 {
+	width:95%;
+	margin:0 5% 30px 0;
+}
+section .webd_box01 img{
+	width:100%;
+	height:auto;
+}
+section .webd_box01.mr0 {
+	margin-right:0;
+}
+section .webd_box01 p {
+	background:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:5px;
+	box-shadow:0px 0px 0px 1px #ccc;
+	-moz-box-shadow:0px 0px 0px 1px #ccc;
+	-webkit-box-shadow:0px 0px 0px 1px #ccc;
+	margin-bottom:10px;
+}
+
+/*------------　graphic　------------*/
+
+section .graphic_box01{
+	width:100%;
+	height: auto;
+	margin:0 auto 20px;
+}
+section .graphic_box01 p {
+	width:100%;
+	height:auto;
+	background:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:5px;
+	box-shadow:0px 0px 3px 1px #ccc;
+	-moz-box-shadow:0px 0px 3px 1px #ccc;
+	-webkit-box-shadow:0px 0px 3px 1px #ccc;
+	margin-bottom:10px;
+	text-align:center;
+}
+section .graphic_box01 img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+section .webd_box .graphic_box01.mr0 {
+	margin-right:0;
+}
+
+/*------------　photo　------------*/
+
+section .photo_box01{
+	width:269px;
+	margin:0 auto 15px;
+}
+section .photo_box01 p{
+	background:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:5px;
+	box-shadow:0px 0px 3px 1px #ccc;
+	-moz-box-shadow:0px 0px 3px 1px #ccc;
+	-webkit-box-shadow:0px 0px 3px 1px #ccc;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+section .photo_box01.mr0 {
+	margin-right:0;
+}
+
+/*------------　about　------------*/
+
+#about .about_box01 {
+	width:90%;
+	margin:30px auto 0;
+}
+#about .about_boxl {
+	width:80%;
+	height:auto;
+	padding-bottom:50px;
+	margin:0 auto;
+}
+#about .about_boxl img{
+	width:100%;
+	height:auto;
+}
+#about .about_boxl p {
+	background:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:5px;
+	box-shadow:0px 0px 3px 1px #ccc;
+	-moz-box-shadow:0px 0px 3px 1px #ccc;
+	-webkit-box-shadow:0px 0px 3px 1px #ccc;
+	margin-bottom:10px;
+}
+#about .about_boxr {
+	float:right;
+	width:100%;
+}
+#about .about_boxr dl dt {
+	width:23%;
+	float:left;
+	clear:both;
+	margin-bottom:5px;
+	border-left:5px solid #999;
+	padding-left:8px;	
+}
+#about .about_boxr dl dd {
+	width:70%;
+	margin-bottom:15px;
+	text-indent:2em;
+	float:left;
+	padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+/*------------　contact　------------*/
+
+form{
+	width:70%;
+	margin:0 auto;
+}
+form dl {
+	width:100%;
+	margin-top:20px;
+}
+form dl dt {
+	float:left;
+	margin-right:10px;
+	clear:both;
+	padding:5px;
+}
+form dl input, form dl textarea {
+	width:100%;
+	padding:5px;
+	border:1px solid #ccc;
+	box-shadow:0px 0px 3px 1px #ccc;
+	-moz-box-shadow:0px 0px 3px 1px #ccc;
+	-webkit-box-shadow:0px 0px 3px 1px #ccc;
+}
+.btn {
+	background:#999999;
+	width:121px;
+	height:56px;
+	border-radius: 10px;        /* CSS3草案 */
+	-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;   /* Firefox用 */
+	color:#fff;
+	font-size:150%;
+	margin:20px;
+}
+.btn:hover {
+	background:#CCC;
+}
+
+/*--------戻るボタン--------*/
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #BBD1F7;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #D4E0F5;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+/*--------------------------------------------------
+
+footer
+
+--------------------------------------------------*/
+
+footer {
+	background:#FFFFFF;
+	padding:20px;
+}
+footer p {
+	width:100%x;
+	margin:0 auto;
+}
+
+
+
+

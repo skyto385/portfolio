@@ -1,0 +1,7 @@
+
+/* スマートフォン */
+@import url("sp.css") only screen and (max-width:480px);
+/* タブレット */
+@import url("tablet.css") only screen and (min-width:481px) and (max-width:768px);
+/* デスクトップ */
+@import url("pc.css") only screen and (min-width:769px);
